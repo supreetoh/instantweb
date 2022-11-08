@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ea8d8d;
+}
+.main h1{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-top: 10vh; */
+    text-align: center;
+    padding:5vmax 0 1vmax 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.main .des{
+    width: 8rem;
+    margin-left: 40%;
+    height: 0.25rem;
+    display: block;
+    background-color: #ffc000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item1, .item3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1 .content,
+.item2 .content,
+.item3 .content{
+    padding:6vmax 12vmax;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.item1 .content h2,
+.item2 .content h2,
+.item3 .content h2{
+    display: block;
+    margin-bottom: 1vmax;
+    /* font-size: 20px; */
+    font-family: 'Fredoka', cursive;
+}
+.item1 .svg{
+    border-radius: 50%;
+}
+.item2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.item1 img,
+.item2 img,
+.item3 img{
+    height: 300px;
+    width: 375px;
+    border-radius: 50%;
+    margin:2rem;
+    object-fit: cover;
+}
+
+
+@media (max-width:750px) {
+    .item1, .item2, .item3{
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 .content,
+    .item2 .content,
+    .item3 .content{
+        padding:2vmax 4vmax;
+        font-size: 15px;
+}
+}

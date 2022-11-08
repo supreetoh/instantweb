@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+.carousel-caption {
+        right: 20%;
+        left: auto;
+        padding-bottom: 30px;
+        width: 450px;
+        background: rgba(0,0,0,0.7);
+        top: 10%;
+        border-radius: 18px;
+        bottom: auto;
+
+    }
+        
+.styleh1{
+    color:#ffc000;
+    font-size:2.5rem;
+}
+.stylep{
+  color:#ffffff;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 750px){
+    .styleh1{
+        font-size: 1.5rem;
+    }
+    .stylep{
+        font-size: 1rem;
+    }
+    .carousel-caption{
+        width: 80%;
+        left: auto;
+        right: 0;
+        padding-bottom: 30px;
+        background: rgba(0,0,0,0.7);
+        top: 10%;
+        border-radius: 18px;
+        bottom: auto;
+    }
+}
